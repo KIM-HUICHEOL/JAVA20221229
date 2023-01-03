@@ -16,6 +16,25 @@ public class C01형변환 {
 		//ex) 범위가 큰 공간에 작은범위안의 값이 대입되는 경우
 		//byte < short < int < long < float < double
 		
+//		byte byteValue = 10;
+//		int intValue = byteValue;  //자동형변환
+//		System.out.println("intValue : " + intValue);
+//		
+//		char charValue = '가';  // 숫자로 해석
+//		intValue = charValue;
+//		System.out.println("가 의 유니코드 : " + intValue);
+//		
+//		intValue = 50;
+//		long longValue = intValue;
+//		System.out.println("longValue : " + longValue);
+//		
+//		longValue = 100;
+//		float floatValue = longValue;
+//		System.out.println("floatValue : " + floatValue);
+//		
+//		floatValue = 100.5F;
+//		double doubleValue = floatValue;
+//		System.out.println("doubleValue : " + doubleValue);
 		
 		
 		
