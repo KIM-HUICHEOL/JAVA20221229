@@ -88,6 +88,10 @@ public class C01연산자 {
 //		char grade = (kor>80 && eng>80)? 'A' : 'B';
 //		System.out.println(grade + "등급입니다.");
 		
+		
+		
+		
+		
 	}
 
 }
