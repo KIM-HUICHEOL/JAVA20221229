@@ -10,6 +10,13 @@ public class C04Shift연산자 {
 		
 		System.out.println("<<Shift 연산결과 : " + num3);
 		System.out.println(">>Shift 연산결과 : " + num4);
+
+		//Ch05 문제 1
+		byte b = 5;
+		b = -b;  // int를 byte에 넣을 수 없음
+		int result = 10 / b;
+		System.out.println(result); 
+	
 	}
 
 }
