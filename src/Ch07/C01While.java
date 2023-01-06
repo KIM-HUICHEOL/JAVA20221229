@@ -150,10 +150,10 @@ public class C01While {
 		int sum = 0;
 		while(i <= N)
 		{
-			if (i % 3 == 0)
+			if (i % 3 == 0) {
 				System.out.println("i 값 : " + i);
-			if (i % 3 == 0)
 				sum += i;
+			}
 			i++;
 		}
 		System.out.printf("3의 배수의 합 : %d", sum);
