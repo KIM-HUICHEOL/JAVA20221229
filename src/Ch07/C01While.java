@@ -119,6 +119,7 @@ public class C01While {
 //			i++;
 //		}
 		
+		
 		//1부터 N까지 수 중의 4의 배수만 출력		
 //		Scanner sc = new Scanner(System.in);
 //		int N = sc.nextInt();
@@ -130,33 +131,37 @@ public class C01While {
 //			i++;
 //		}
 		
+		
 		//1부터 10까지 수 중에 3의 배수와 합만 출력
 //		int i = 1;
 //		int sum = 0;
 //		while(i <= 10)
 //		{
-//			if (i % 3 == 0)
-//				System.out.println("i 값 : " + i);
-//			if (i % 3 == 0)
+//			if (i % 3 == 0){
+//				System.out.println("i 값 : " + i);					
 //				sum += i;
+//			}
 //			i++;
 //		}
 //		System.out.printf("3의 배수의 합 : %d", sum);
 		
+		
 		//1부터 N까지 수 중에 3의 배수와 합만 출력
-		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
-		int i = 1;
-		int sum = 0;
-		while(i <= N)
-		{
-			if (i % 3 == 0) {
-				System.out.println("i 값 : " + i);
-				sum += i;
-			}
-			i++;
-		}
-		System.out.printf("3의 배수의 합 : %d", sum);
+//		Scanner sc = new Scanner(System.in);
+//		int N = sc.nextInt();
+//		int i = 1;
+//		int sum = 0;
+//		while(i <= N)
+//		{
+//			if (i % 3 == 0) {
+//				System.out.println("i 값 : " + i);
+//				sum += i;
+//			}
+//			i++;
+//		}
+//		System.out.printf("3의 배수의 합 : %d", sum);
+		
+		
 	}
 
 }
