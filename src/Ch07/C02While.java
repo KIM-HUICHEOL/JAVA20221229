@@ -363,34 +363,34 @@ public class C02While {
 		//i(줄바꿈)  j(공백)       k(별찍기)
 		//i=0      j=0          k=0
 		//i++      j++		    k++
-		//i<h      j<=h-(h-1)   k<=
+		//i<h      j<=h-(h-1)   k<=?
 		
-		Scanner sc = new Scanner(System.in);
-		
-		int h = sc.nextInt();  //높이 입력
-		int i = 0;  //줄바꿈
-		int j = 0;  //공백
-		int k = 0;  //별찍기
-		while (i < h)
-		{  
-			//공백
-			j = 0; 
-			while (j <= h - (h-i))
-			{
-				System.out.print(" ");  // 개행x 기본 print로 입력
-				j++;	
-			}
-			//별찍기
-			k=0;
-			while (k <=)
-			{
-				System.out.print("*");
-				k++;
-			}
-			System.out.println();
-			i++;
-
-		}
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int h = sc.nextInt();  //높이 입력
+//		int i = 0;  //줄바꿈
+//		int j = 0;  //공백
+//		int k = 0;  //별찍기
+//		while (i < h)
+//		{  
+//			//공백
+//			j = 0; 
+//			while (j <= h - (h-i))
+//			{
+//				System.out.print(" ");  // 개행x 기본 print로 입력
+//				j++;	
+//			}
+//			//별찍기
+//			k=0;
+//			while (k <=?)
+//			{
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();
+//			i++;
+//
+//		}
 		
 		
 		
