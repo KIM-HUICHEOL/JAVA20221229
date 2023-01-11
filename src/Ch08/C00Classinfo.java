@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C00Classinfo {
 
 	//1 객체란?
-	// - 존재(공간을 차지한다)하는 사물(Object)
+	// - 존재(메모리공간을 차지한다)하는 사물(Object)
 	
 	
 	//2 객체의 기본 구조
