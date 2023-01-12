@@ -13,7 +13,7 @@ class LocalVar{
 			int num = 105;
 			System.out.println("NUM : " + num);  //if() 안에서만 사용되는 지역변수 num
 		}
-		System.out.println("NUM : " + num);  //멤버변수 num을 의미
+		System.out.println("NUM : " + num);  //멤버변수 num을 의미함
 	}
 	void func2() {}
 	

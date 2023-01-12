@@ -9,7 +9,7 @@ class C04Person
 	float height;
 	double weight;
 	
-	//기능(멤버함수)  기본적으로 멤버변수 사용할 권한 있음
+	//기능(멤버함수)  기본적으로 멤버변수 사용할 권한이 있음
 	void talk() {  //void : 반환 자료형
 		System.out.println(name + " 님이 말합니다.");
 	}

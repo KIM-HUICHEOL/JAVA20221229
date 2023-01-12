@@ -10,7 +10,7 @@ class C03Car
 
 public class C03CarMain {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {  //
 		C03Car hong = new C03Car();
 		hong.owner = "홍길동";
 		hong.speed = 0;

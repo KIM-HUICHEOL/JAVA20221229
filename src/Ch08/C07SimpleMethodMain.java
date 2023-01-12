@@ -7,7 +7,7 @@ class Sum{
 	Scanner sc = new Scanner(System.in);
 	//기능
 	//인자o, return o
-	int sum1(int x, int y) {  //10, 20을 파라미터 변수(int x, int y)에 저장
+	int sum1(int x, int y) {  //10, 20을 파라미터 변수(int x, int y)에 저장함
 		return x + y;  //main함수로 돌아감
 	}
 	

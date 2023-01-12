@@ -6,5 +6,4 @@ public class C01Person {
 	int age;
 	float height;
 	double weight;
-
 }

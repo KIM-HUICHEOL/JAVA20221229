@@ -20,7 +20,6 @@ public class C02PersonMain {
 		hong.weight = 70.5;
 		System.out.printf("%s %d %f %f\n", hong.name, hong.age, hong.height, hong.weight);
 
-		
 	}
 
 }

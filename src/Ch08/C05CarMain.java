@@ -40,7 +40,7 @@ class C05Car
 
 	}
 	
-	//멤버 정보표시용 함수는 이후 toString()재정의로 대체
+	//멤버 정보표시용 함수는 이후 toString()재정의로 대체함
 	void info() {
 		System.out.printf("%s %d %d %s\n", owner, speed, fuel, model);
 		} 
