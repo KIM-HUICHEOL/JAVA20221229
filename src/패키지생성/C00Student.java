@@ -1,4 +1,4 @@
-package Ch09;
+package 패키지생성;
 
 public class C00Student {
 

@@ -1,4 +1,4 @@
-package Ch09;
+package 패키지생성;
 
 class C00Test {
 	//getter, setter 생성 할 것
