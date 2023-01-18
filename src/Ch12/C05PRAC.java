@@ -11,11 +11,11 @@ class ShopService{
 		return instance;
 	}
 	
-	static String shopName = "GS감삼점";
-	static String manager = "홍길동";
+	String shopName = "GS감삼점";
+	String manager = "홍길동";
 	void Showstring()
 	{
-		System.out.printf("%s,  %s\n",  shopName, manager);
+		System.out.printf("shopName : %s, manager : %s\n",  shopName, manager);
 	}
 }
 
