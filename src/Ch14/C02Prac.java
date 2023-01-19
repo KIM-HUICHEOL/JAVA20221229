@@ -1,6 +1,6 @@
-package Ch13;
+package Ch14;
 
-class Employee	//직원
+abstract class Employee	//직원
 {
 	String name;
 	String age;
@@ -12,7 +12,7 @@ class Employee	//직원
 		this.addr = addr;
 	}
 	
-	void show() {}
+	abstract void show();
 	
 }
 class Parttimer extends Employee	//시간제
@@ -22,7 +22,6 @@ class Parttimer extends Employee	//시간제
 		super(name,age,addr);
 		this.hourpay = hourpay;
 	}
-	
 	@Override
 	void show() {
 		System.out.printf("시간제근로자 :%s %s %s %d\n", name,age,addr,hourpay);
@@ -41,11 +40,9 @@ class Regular extends Employee	//정규직
 	}
 	
 }
-public class C06Prac {
+public class C02Prac {
 
 	public static  void ShowInfo(Employee emp) {  //Employee emp = emp1;
-		//다운캐스팅을 통해서 parttimer or regular를 선별해서
-		//모든 정보를 출력해보세요
 		
 		emp.show();
 	}
