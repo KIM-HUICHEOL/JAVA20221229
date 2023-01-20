@@ -76,6 +76,17 @@ public class C01InterfaceMain {
 		TurnOn(radio);
 		SetVol(tv, 7);
 		System.out.println(tv.vol);
+		
+		
+		
+		//인터페이스
+		//멤버변수 : final static (공유 상수)
+		//멤버함수 : 추상메서드 (->상속받는 클래스가 완성시켜라)
+		//일반메서드 x
+		//일반멤버변수 x
+		//1) 낮은 결합도
+		//2) 
+
 	}
 
 }
